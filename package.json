@@ -31,7 +31,8 @@
 		"bun": "^1.1.27"
 	},
 	"files": [
-		"dist/"
+		"dist/",
+		"source/"
 	],
 	"keywords": [
 		"react",
