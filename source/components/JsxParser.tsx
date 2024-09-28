@@ -29,6 +29,7 @@ export type TProps = {
 }
 type Scope = Record<string, any>
 
+/* eslint max-classes-per-file: ["error", 2] */
 class NullishShortCircuit extends Error {
 	constructor(message = 'Nullish value encountered') {
 		super(message)
